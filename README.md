@@ -2,6 +2,10 @@
 
 A simple interactive **Bash script** to install or remove packages from your system.
 
+## About This Project
+
+This is one of my first Bash scripting projects, created to learn Git, GitHub, and command-line automation. It's simple by design but will be improved over time as I learn more.
+
 ## Features
 
 - Friendly terminal-based interaction
@@ -16,9 +20,20 @@ A simple interactive **Bash script** to install or remove packages from your sys
 3. Executes the corresponding `apt install` or `apt purge` command.
 4. Displays the **exit status** of the command.
 
+
+
 ## Usage
 
 Run the script from a terminal:
 
 ```bash
 bash script.sh
+```
+
+## Notes
+
+- Requires sudo permissions.
+- Designed for Debian-based systems (like Ubuntu or Termux with apt).
+- Just a beginner script — feel free to extend or modify it!
+
+> Note: `script.sh` is a work in progress and will continue to receive updates with new features and improvements.
