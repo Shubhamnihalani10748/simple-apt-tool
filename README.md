@@ -21,4 +21,4 @@ A simple interactive **Bash script** to install or remove packages from your sys
 Run the script from a terminal:
 
 ```bash
-bash service.sh
+bash script.sh
