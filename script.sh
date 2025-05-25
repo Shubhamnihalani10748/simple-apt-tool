@@ -7,7 +7,6 @@ sleep 2
 echo "Do you want to install a package or remove it?"
 sleep 2
 
-
 read -n 2 -p "To install, press I. To remove, press R :" prompt1
 prompt="${prompt1^^}"
 echo -e "\n You entered: $prompt"
