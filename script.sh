@@ -8,7 +8,7 @@ echo "Do you want to install a package or remove it?"
 sleep 2
 
 
-read -n 2 -p $"To install, press I. To remove, press R :" prompt1
+read -n 2 -p "To install, press I. To remove, press R :" prompt1
 prompt="${prompt1^^}"
 echo -e "\n You entered: $prompt"
 
@@ -31,9 +31,9 @@ if [[ "$prompt" == "I" || "$prompt" == "R" ]]; then
     elif [[ "$prompt" == "R" ]]; then
         echo "Removing $pkg..."
         sleep 2
-        sudo apt purge "$pkg" 
+        sudo apt purge "$pkg"
         echo "$pkg removal complete. Exit code : $?"
     fi
-else 
+else
     echo "Bhaggg...."
 fi
